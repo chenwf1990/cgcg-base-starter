@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cgcg-base-parent" />
+        <module name="cgcg-base-spring-boot-starter" />
+        <module name="cgcg-context-spring-boot-starter" />
+        <module name="cgcg-http-spring-boot-starter" />
+        <module name="cgcg-mybatis-spring-boot-starter" />
+        <module name="cgcg-redis-spring-boot-starter" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cgcg-base-parent" target="1.8" />
+      <module name="cgcg-base-spring-boot-starter" target="1.8" />
+      <module name="cgcg-base-starter" target="1.8" />
+      <module name="cgcg-context-spring-boot-starter" target="1.8" />
+      <module name="cgcg-http-spring-boot-starter" target="1.8" />
+      <module name="cgcg-mybatis-spring-boot-starter" target="1.8" />
+      <module name="cgcg-redis-spring-boot-starter" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

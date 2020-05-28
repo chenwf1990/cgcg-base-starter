@@ -1,0 +1,10 @@
+server:
+  port: 8888
+logging:
+  level:
+    com.cgcg: debug
+cgcg:
+  rest:
+    fallback:
+      enable: false
+      expire: 3000
